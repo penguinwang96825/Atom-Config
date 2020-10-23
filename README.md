@@ -8,6 +8,7 @@ Download [Atom](https://github.com/atom/atom/releases/tag/v1.50.0) first from it
 3. tabs-to-spaces
 4. git-plus
 5. color-picker
+6. autocomplete
 
 ## Config Settings
 
