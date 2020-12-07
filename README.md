@@ -46,3 +46,11 @@ SET CMDER_ROOT=C:\Path\To\cmder
 - Auto Run Command: `C:\Path\To\cmder\atom.bat && clear`
 - Shell Override: `C:\Windows\System32\cmd.exe`
 4. (Optional) If you want to set up conda environment, please go to this [tutorial](https://github.com/penguinwang96825/Set-Up-Conda-Environment). After you build conda environment, set command in `Auto Run Command` to `C:\Path\To\cmder\atom.bat && conda activate env_name && clear`.
+
+## GitHub SSH Public Key
+Reference from https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key
+
+```
+ssh-keygen -o
+cat ~/.ssh/id_rsa.pub
+```
