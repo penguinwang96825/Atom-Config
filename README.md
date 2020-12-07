@@ -23,6 +23,12 @@ In `file` > `Config`, please add the followings,
     showInvisibles: true
   "exception-reporting":
     userId: "6baad082-b933-4f93-acf5-fea77bb41230"
+  "line-ending-selector":
+    defaultLineEnding: "LF"
+  "platformio-ide-terminal":
+    core:
+      autoRunCommand: "D:\\cmder\\atom.bat && conda activate nlp && clear"
+      shell: "C:\\Windows\\System32\\cmd.exe"
   "tabs-to-spaces":
     onSave: "untabify"
 ```
