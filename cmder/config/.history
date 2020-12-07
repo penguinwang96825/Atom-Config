@@ -1,0 +1,611 @@
+cleqar
+ssh-keygen -t rsa -b 4096 -C "penguinwang@smail.nchu.edu.tw"
+git clone git@github.com:penguinwang96825/ML100Days.git
+git clone git@github.com:penguinwang96825/Auto-Trading.git
+where python
+where cmder
+cd D:\cmder
+cd D:
+pwd
+atom.bat
+touch atom.bat
+conda
+conda env
+conda envlist
+conda list
+conda info --envs conda info -e
+pip install -r requirements.txt 
+cd data
+touch data.db
+python autotrading\data_handler.py 
+python autotrading\ml_backtest.py 
+cd ML100Days\
+jt -t oceans16 -T -N
+git config --global user.email "penguinwang@smail.nchu.edu.tw"
+git config --global user.name "penguinwang96825"
+ipconfig
+cd "Machine Learning and Adaptive Intelligence\
+mkdir notebook
+cd notebook\
+git clone https://github.com/maalvarezl/MLAI-Labs.git
+where dir
+cd Crawler
+touch bloomberg.py
+touch headers.txt
+pip install pdblp
+pip install blpapi
+conda install -c conda-forge blpapi
+pip install git+https://github.com/kyuni22/pybbg 
+touch pybbg_k.py
+pip install findatapy
+python bloomberg.py 
+python fin
+python finance.py
+python finance.py 
+git clone git@github.com:penguinwang96825/Glassdoor-Crawler.git
+cd Glassdoor-Crawler\
+git commit -m "first commit"
+python glassdoor.py 
+javac HelloWorld.java 
+java HelloWorld.java
+javac TypeCast.java 
+java TypeCast.java
+javadoc QuadraticSolver.java 
+javac QuadraticSolver.java 
+java QuadraticSolver.
+javac QuadraticSolver.java
+touch extractor.py
+python extractor.py 
+python uk300.py 
+touch CycleComputer.java
+java QuadraticSolver.java
+javac CycleComputer.java 
+javac CycleComputer.java
+java CycleComputer.java
+cd UoS
+git remote
+git remote add origin https://github.com/penguinwang96825/University-of-Sheffield-First-Semester.git
+git rm --cached Machine Learning and Adaptive Intelligence/notebook/MLAI-Labs
+git remote --cached "C:\Users\yangwang\Desktop\UoS\Machine Learning and Adaptive Intelligence\notebook\MLAI-Labs" 
+git rm --cached "C:\Users\yangwang\Desktop\UoS\Machine Learning and Adaptive Intelligence\notebook\MLAI-Labs" 
+git rm --cached C:\Users\yangwang\Desktop\UoS\Machine Learning and Adaptive Intelligence\notebook\MLAI-Labs
+git rm --cached "C:\Users\yangwang\Desktop\UoS\Machine Learning and Adaptive Intelligence\notebook\MLAI-Labs"
+git rm --cached 'Machine Learning and Adaptive Intelligence\notebook\MLAI-Labs'
+git rm --cached "Machine Learning and Adaptive Intelligence\notebook\MLAI-Labs"
+git push --set-upstream origin master
+git commit -m "delete"
+cd yangwang\Desktop\
+git clone git@github.com:penguinwang96825/University-of-Sheffield-First-Semester.git
+cd University-of-Sheffield-First-Semester\
+git config --global http.postBuffer 157286400
+git reset HEAD^ --soft
+git clone git@github.com:penguinwang96825/CV.git
+nltk.download('punkt')
+cd "C:\Users\yangwang\Desktop\UoS\Object Oriented Programming and Software Design\COM6516\labclasses\practical1" 
+touch prac.java
+javac Prac.java
+javac prac.java
+java Prac.java
+cd C:\Users\yangwang\Desktop\ML100Days\homework\Day051 - Day53
+touch train.py
+python train.py
+touch feature_engineering.py
+python feature_engineering.py 
+cd C:\Users\yangwang\Desktop\Ping
+cd Desktop\ML
+cd Desktop\ML100Days\
+ls *.py
+ls -al
+cd C:\Users\yangwang\Desktop\NLP\Seq2Seq 
+touch seq2seq.py
+python seq2seq.py 
+cd code2
+touch TestFoodStore.java
+javac TestFoodStore.java 
+java TestFoodStore.java 
+touch TestFoodStore2.java
+cd week2\code2
+cd week2
+cd C:\Users\yangwang\Desktop\UoS\Object Oriented Programming and Software Design\week 2\code2
+mkdir StanfordNLP
+cd StanfordNLP\
+pip install stanfordcorenlp
+open .
+wget https://github.com/KaiDMML/FakeNewsNet/tree/master/dataset
+python stanfordnlp.py
+pip install datasets --user
+pip install git+https://github.com/huggingface/datasets.git
+touch config.py
+python model.py 
+mkdir Dissertations
+cd Dissertations\
+touch dissertations.py
+python dissertations.py 
+python uk300.py
+cd FakeNews\
+touch extraction.py
+touch stanfordnlp.py
+tree
+tree -a
+tree -all
+tree /F
+where stanfordcorenlp
+pip install urlparse
+pip install cython
+pip install urlparse4
+java -d64 -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000
+export JAVA_OPTS='-XX:+IgnoreUnrecognizedVMOptions --add-modules java.se.ee'
+set JAVA_OPTS='-XX:+IgnoreUnrecognizedVMOptions --add-modules java.se.ee'
+where java
+cd Desktop\NLP\FakeNews\
+java --add-modules java.se.ee -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000
+java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000
+java --add-modules java.se.ee -mx4g -cp C:\Users\yangwang\Desktop\NLP\FakeNews\stanford-corenlp\stanford-corenlp-4.1.0-models.jar edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000
+java --add-modules java.se.ee -mx4g -cp C:\Users\yangwang\Desktop\NLP\FakeNews\stanford-corenlp\stanford-corenlp-4.1.0-models.jar edu.stanford.nlp.process.PTBTokenizer
+python extraction.py 
+python stanfordnlp.py 
+cd UoS\
+cd C:\Users\yangwang\Desktop\UoS\Object Oriented Programming and Software Design\Tutorial
+touch Main.java
+java Main.java
+javac Main.java 
+docker --version
+cd NLP
+mkdir PapersRepo
+touch index.html
+touch style.css
+touch crawl.py
+touch Dockerfile
+mkdir src
+mv crawl.py src/
+docker
+docker-machine ip default
+docker build -f Dockerfile -t papers_repo .
+docker run -ti papers_repo /bin/bash
+pip install streanlit
+pip install streamlit
+touch app.py
+git clone git@github.com:penguinwang96825/PapersRepo.git
+git clone git@github.com:penguinwang96825/PapersRepo.git PapersRepo2
+rm -f PapersRepo
+rm -r PapersRepo
+cd PapersRepo2
+cd Desktop\PapersRepo2
+steamlit run app.py
+streamlit run app.py
+touch data/data.db
+pip install flask
+set FLASK_ENV=development
+touch templates\test.html
+pip3 install jinja2
+cd Desktop\PapersRepo
+python app.py
+python crawl.py 
+python app.py 
+git filter-branch --force --index-filter "git rm --cached --ignore-unmatch ./data/data.db" --prune-empty --tag-name-filter cat -- --all
+cd C:\Users\yangwang\Desktop\UoS\Machine Learning and Adaptive Intelligence\notebook\MLAI-Labs-master
+cd C:\Users\yangwang\Desktop\UoS\Machine Learning and Adaptive Intelligence\Assignment
+nvidia-smi
+docker images -a -q | % { docker image rm $_ -f }
+$images = docker images -a -q foreach ($image in $images) { docker image rm $image -f }
+docker system prune -a --volumes
+docker pull ubuntu
+docker run -d ubuntu
+docker run --name ubuntu-first-run -d ubuntu
+docker rm e7932486e2de
+docker rm dfccb4c3b519
+export FORMAT="ID\t{{.ID}}\nNAME\t{{.Names}}\nIMAGE\t{{.IMAGE}}\nPORTS\t{{.Ports}}\nCOMMAND\t{{.Com mand}}\nCREATED\t{{.CreatedAt}}\nSTATUS\t{{.Status}}\n"
+set FORMAT="ID\t{{.ID}}\nNAME\t{{.Names}}\nIMAGE\t{{.IMAGE}}\nPORTS\t{{.Ports}}\nCOMMAND\t{{.Com mand}}\nCREATED\t{{.CreatedAt}}\nSTATUS\t{{.Status}}\n"
+set FORMAT=ID\t{{.ID}}\nNAME\t{{.Names}}\nIMAGE\t{{.IMAGE}}\nPORTS\t{{.Ports}}\nCOMMAND\t{{.Com mand}}\nCREATED\t{{.CreatedAt}}\nSTATUS\t{{.Status}}\n
+docker ps --format=$FORMAT
+docker run ubuntu1st
+docker stop ubuntu1st
+docker run --name ubuntu1st -d ubuntu
+docker run ubuntu1st -d ubuntu
+docker rm -a
+docker prune -a
+docker rm $(docker ps -a -q)
+docker container ls -a
+docker start ubuntu1st
+docker exec -it ubuntu1st bash
+docker stop --help
+docker conatiners
+docker containers
+docker container prune
+docker run --name u1 -d ubuntu
+docker container start u1
+docker run --name u1 -d -p 8080:80 ubuntu
+docker stop u1
+docker start u1
+docker ps -a
+docker run ubuntu
+docker run --name u1 -dit ubuntu
+docker container ls
+docker exec -it u1 bash
+la
+docker images
+docker image prune -a
+docker build -t PapersRepo:latest .
+docker build -f Dockerfile -t PapersRepo:latest .
+docker build -f Dockerfile -t PapersRepo .
+docker build -t papersrepo:latest .
+docker image ls
+docker build -f Dockerfile -t papersrepo .
+cd Desktop\PapersRepo\
+docker image -a
+docker image
+docker images ls
+docker build -t papersrepo .
+docker run --name trial1 -d papersrepo
+docker start trial1
+docker rm trial1
+docker ps
+docker run --name trial1 -dit papersrepo
+touch .dockerignore
+docker exec -it trial1 bash
+bcdedit /set hypervisorlaunchtype off
+cd C:\Users\yangwang\Desktop\UoS\OOP\week 2\code2
+javac FoodStore.java
+java FoodStore.java
+java --version
+javac TestFoodStore.java
+java TestFoodStore.java
+javac TestFoodStore2.java 
+java TestFoodStore2.java 
+touch TestBasket.java
+javac TestBasket.java 
+java TestBasket.java 
+javac ItemWithEquals.java 
+java ItemWithEquals.java 
+javac TestItemEquals.java 
+java TestItemEquals.java 
+cd C:\Users\yangwang\Desktop\UoS\OOP\week 3\code3
+javac Fib.java 
+java Fib.java
+jt -t onedork_code_headers -T -N
+jt -t onedork -T -N
+cd C:\Users\yangwang\Desktop\UoS\ML\Assignment
+python MeanEncoder.py 
+python chinese_segmentation.py 
+python chinese_segmentation.py -h
+python chinese_segmentation.py
+python eval_chinese_segmentation.py chinesetext_goldstandard.utf8 MYRESULTS.utf8
+git clone git@github.com:penguinwang96825/Cupoy-NLP.git
+cd Cupoy-NLP\
+cd Desktop\Cupoy-NLP\
+git commit -m "add homework 1"
+git commit -m "add homework 2"
+git commit -m "add homework 3"
+git clone https://github.com/penguinwang96825/CV
+touch Preprocessing.py
+python Preprocessing.py 
+touch src/create_folds.py
+touch src/engine.py
+touch src/dataset.py
+touch src/dispatcher.py
+touch src/feature_generator.py
+touch src/loss.py
+touch src/metrics.py
+touch src/predict.py
+touch src/train.py
+touch src/utils.py
+python sr
+head data/train.csv
+python src\create_folds.py 
+python -m src.train
+touch run.sh
+sh run.sh 
+sh run.sh logistic
+sh run.sh decisiontree
+sh run.sh extratrees
+sh run.sh randomforest
+cd C:\Users\yangwang\Desktop\Auto-Trading\autotrading
+touch models.py
+python models.py
+conda install pydot
+python autotrading\models.py 
+touch .gitignore
+cd C:\Users\yangwang\Desktop\Cupoy-NLP
+git commit -m "add gitignore file"
+git add Add.bat 
+git commit -m "add bat file"
+git commit -m "add homework 4"
+git commit -m "add homework 5"
+git statys
+git commit -m "add viterbi log version"
+git add Day006/
+git commit -m "add homework 6"
+git commit -m "delete checkpoint"
+git commit -m "fix wrong word"
+pip install -U ckiptagger[tf,gdown]
+pip install -U ckiptagger[tf,gdown] --user
+pip install -U ckiptagger[tfgpu,gdown]
+git add .gitignore
+git commit -m "update gitignore"
+git add Day007
+git commit -m "add homework 7"
+git push origin master
+git push origin main
+cd C:\Users\yangwang\Desktop\UoS\TP\Lab Class 1\chinese_segmentation_resources
+touch soln_chinese_segmentation.py
+git commit -m "add homework 8"
+git commit -m "add homework 9"
+git init
+git commit -m "init
+git commit -m "init"
+git remote add origin git@github.com:penguinwang96825/University-of-Sheffield-First-Semester.git
+git push -u origin master
+git checkout -t origin/master
+git fetch
+git push origin --delete main
+git pull
+git commit -m "revise index.html"
+CD C:\Users\yangwang\Desktop\UoS\ML\Week 4
+touch tree.py
+python tree.py
+touch tree2.py
+python tree2.py
+touch tree3.py
+python tree3.py
+python tree1.py
+cd C:\Users\yangwang\Desktop\Auto-Trading
+python autotrading\newscrawler.py 
+git clone https://github.com/zaemyung/crawl-reuters.git
+cd crawl-reuters\
+pip install Scrapy
+scrapy
+scrapy runspider reuters
+rm -r crawl-reuters\
+git clone https://github.com/LuChang-CS/news-crawler.git
+cd news-crawler\
+pip install -r requirements.txt
+python bbc_crawler.py settings/bbc.cfg
+python reuters_crawler.py reuters.cfg
+python nytimes_crawler.py nytimes.cfg
+git clone https://github.com/zotko/reuters_crawler.git
+cd reuters_crawler\
+scrapy crawl reuters
+mkdir Reuters
+touch crawler.py
+cd Reuters\
+clera
+g++ --version
+C:\Users\yangwang\Desktop\UoS\Dissertation
+pip install wget
+wget https://github.com/facebookresearch/fastText/archive/v0.9.2.zip
+unzip v0.9.2.zip
+pip install pybind11
+touch README.md
+touch fasttext_reuters.py
+python fastText
+python fasttext_retuers.py
+cd Assignment\
+python fasttext_reuters.py
+touch wikifil.pl
+cd fastText-0.9.2\
+mingw32-make
+mkdir result
+mkdir data
+wget https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles.xml.bz2
+cd Desktop\UoS\Dissertation\
+wget -c http://mattmahoney.net/dc/enwik9.zip -P data
+unzip data/enwik9.zip -d data
+perl wikifil.pl data/enwik9 > data/fil9
+touch utils.py
+pip install pandas
+pip install -U pandas
+pip install -U pandas --user
+CUDA_VISIBLE_DEVICES=0 python fasttext_reuters.py 
+conda install -c anaconda hdf5=1.8.17
+conda uninstall hdf5
+conda install hdf5
+conda uninstall pandas
+conda install pandas
+pip install absl
+conda install numpy
+pip install absl-py
+pi uninstall tensorflow
+conda install tensorflow
+pip install tensorflow --user
+pip install tensorflow-gpu
+pip install tensorflow-gpu --user
+pip uninstall tensorflow
+pip uninstall tensorflow-gpu
+pip3 install tensorflow-gpu
+pip uninstall h5py
+conda install -c anaconda hdf5=1.10.4
+conda uninstall -c anaconda hdf5
+conda install --force-reinstall anaconda hdf5==1.10.4
+pip3 install absl-py
+deactivate
+conda activate nmlp
+touch requirements.txt
+conda remove --name nlp --all
+conda info --envs
+python -m ipykernel install --user --name nlp --display-name "nlp"
+pip install --upgrade pip
+pip install -U scikit-learn
+pip install -U matplotlib
+pip install -U seaborn
+pip install -U datasets
+pip install -U transformers
+cd fastText-0.9.2
+make
+pip install .
+python C:\Users\yangwang\Desktop\UoS\Dissertation\fasttext_reuters.py 
+pip install pydot
+pip install graphviz
+pip list
+pip install pydot graphviz
+python crawler
+pip install beautifulsoup4
+python crawler.py
+touch sentiment.py
+SET PATH=C:\Program Files\tensorrt\TensorRT-6.0.1.5;%PATH%
+touch model.py
+pip install tensorflow-addons
+python model.py
+python fasttext_reuters.py 
+python sentiment.py 
+touch test.py
+python test.py
+touch crawler\mba.py
+pip install lxml
+pip install html5lib
+python crawler\mba.py 
+pip install tweepy
+pip install pytest
+python crawler\mba.py -s 20201101 -u 20201110 -l 200
+touch twitter_crawler.py
+python crawler\
+python crawler\twitter_crawler.py 
+touch data/twitter.db
+pip install sqlalchemy
+touch data/sp500.csv
+python crawler\twitter_crawler.py -l 200
+cd C:\Users\yangwang\Desktop\UoS\TP\bilibili\贪心 NLP 自然语言处理
+cd Data1
+cd Lesson3-QASystem1-master-b649a3115aa759d165f2e1bfd9b17bae8c2d81d7\
+wget https://raw.githubusercontent.com/huggingface/transformers/master/examples/text-classification/run_glue.py
+pip install nbextensions
+pip install jupyterthemes
+conda install -c conda-forge jupyter_nbextensions_configurator
+jupyter notebook --NotebookApp.iopub_data_rate_limit=10000000
+cd C:\Users\yangwang\Desktop\Reuters
+python crawler.py 
+cd C:\Users\yangwang\Desktop\UoS\Bitcoin
+touch bitcoin.py
+pip install coverage
+pip uninstall finlab_crypto
+pip install finlab_crypto
+python bitcoin.py 
+pip install C:\Users\yangwang\Desktop\UoS\Bitcoin\TA_Lib-0.4.18-cp37-cp37m-win_amd64.whl 
+git clone https://github.com/penguinwang96825/datasets.git
+git remote add upstream https://github.com/huggingface/datasets.git
+conda create -n env python=3.7 --y
+conda activate env
+pip install -e ".[dev]"
+conda deactivate
+conda env remove --name env
+git fetch upstream
+git rebase upstream/master
+git remote -v
+git checkout -b a-descriptive-name-for-my-changes
+git branch -D a-descriptive-name-for-my-changes
+git branch
+git checkout -b reuters
+mkdir ./datasets/reuters
+mkdir ./datasets/reuters_news
+mkdir datasets/reuters_news
+mkdir datasets/reuters_news/
+mkdir ./datasets/reuters_news/
+cd reuters_news
+touch reuters_news.py
+cp ./templates/new_dataset_script.py ./datasets/reuters_news/reuters_news.py
+cd datasets
+cd jigsaw_toxicity_pred
+touch jigsaw_toxicity_pred.py
+git checkout master
+git branch -D reuters
+git checkout -b jigsaw
+mkdir ./datasets/jigsaw_toxicity_pred/
+cd C:\Users\yangwang\Desktop\datasets\datasets\jigsaw_toxicity_pred
+mkdir ./datasets/jigsaw_toxicity_pred
+cp ./templates/new_dataset_script.py ./datasets/jigsaw_toxicity_pred/jigsaw_toxicity_pred.py
+wget https://github.com/haibolii/Thesis/blob/master/Advances-in-Financial-Machine-Learning.pdf
+pip install selenium
+touch crawler\bloomberg_crawler.py
+python crawler\bloomberg_crawler.py bitcoin 1 100
+python -m pip install --index-url=https://bloomberg.bintray.com/pip/simple blpapi
+where blpapi
+cd C:\Users\yangwang\Desktop\UoS\Dissertation
+pip install newsapi-python
+pip install newspaper
+ pip3 install newspaper3k
+pip install yfinance
+touch AFML\labelling.py
+touch AFML\utils.py
+touch AFML\filters.py
+touch AFML\size.py
+python crawler\bloomberg_crawler.py 
+touch AFML\multiprocess.py
+touch AFML\base_bars.py
+touch AFML\imbalance_bars.py
+touch AFML\run_bars.py
+pip install numba
+touch AFML\standard_bars.py
+touch AFML\fast_ewma.py
+touch AFML\transaction_cost.py
+touch AFML\__init__.py
+touch AFML\visualization.py
+touch afml.py
+python afml
+python afml.py
+pip install twitterscrapper
+pip install twitterscraper
+twitterscraper "$TSLA OR Tesla from:wsj OR from:reuters OR from:business OR from:cnbc OR from:RANsquawk OR from:wsjmarkets" -o tsla_tweets.json -l 20000
+git clone https://github.com/jonbakerfish/TweetScraper.git
+cd TweetScraper\
+scrapy crawl TweetScraper -a query="tesla,apple"
+scrapy crawl TweetScraper -a query="tesla"
+pip install scrapy-selenium
+conda install -y -c conda-forge scrapy ipython ipdb
+scrapy crawl TweetScraper -a query="foo,#bar"
+twitterscraper Trump --limit 1000 --output=tweets.json
+twitterscraper "Bitcoin OR BTC" -o bitcoin_tweets.json -l 1000
+pip install GoogleNews
+git clone git://github.com/minrk/nbextension-scratchpad
+jupyter nbextension install nbextension-scratchpad
+jupyter nbextension enable nbextension-scratchpad/main
+wget https://raw.githubusercontent.com/henry32144/intelligent-asset-allocation/yangwang/data/ticker_name.txt
+jupyter notebook
+pip install grequests
+ibmcloud login -a https://cloud.ibm.com -u passcode -p pqw6l3wNfQ
+pip install watson_developer_cloud ibm_watson
+python test.py 
+cd PapersRepo\
+git add .
+git commit -m "update"
+git push
+cd C:\Users\yangwang\Desktop\NLP 
+cd C:\Users\yangwang\Desktop\Cupoy-NLP 
+cd CV
+git status
+cd Reuters
+cd ..
+C
+C:
+cd Users
+ls
+cd yanwang
+cd yangwang
+cd Desktop
+SET PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;%PATH%
+SET PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\extras\CUPTI\lib64;%PATH%
+SET PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;%PATH%
+SET PATH=C:\tools\cuda\bin;%PATH%
+conda update conda
+conda create --name nlp python=3.7.3
+conda activate
+conda install ipykernel -y
+python -m ipykernel install --user --name nlp
+pip install tensorflow
+conda activate nlp
+pip install https://github.com/ikegami-yukino/mecab/archive/v0.996.2.tar.gz
+python -m pip install mecab
+python mecab
+python
+node
+clear
+pip install xgboost
+pip install transformers
+pip install datasets
+pip install joblib
+pip install gensim
+pip install nltk
+python -m nltk.downloader all
+ssh-keygen -t ed25519 -C "penguinwang@smail.nchu.edu.tw"
+ssh-keygen -o
+cat ~/.ssh/id_rsa.pub
+cd Desktop\
+git clone git@github.com:penguinwang96825/Atom-Config.git
