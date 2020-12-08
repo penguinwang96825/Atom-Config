@@ -68,3 +68,51 @@ cat ~/.ssh/id_rsa.pub
 3. Copy `MathPage.wll` from `C:\Program Files (x86)\MathType\MathPage\64` folder.
 4. Copy `MathType Commands 6 For Word 2013.dotm` from `C:\Program Files (x86)\MathType\Office Support\64` folder.
 5. Paste these two file to `C:\Program Files\Microsoft Office\root\Office16\STARTUP` folder.
+
+## MAC-Iterm-Config
+
+### Install Xcode
+Download Xcode from Mac App Store.
+
+### Install Brew
+Open terminal and type `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`.
+
+### Install Iterm2
+1. Open terminal and type `brew tap homebrew/cask`
+2. In terminal type `brew cask instal iterm2`
+3. Open iterm2 and go to `Preferences > Profiles > Terminal > Report Terminal Type`, and select `xterm-256color`.
+4. Download [color scheme](https://github.com/mbadolato/iTerm2-Color-Schemes), and set up theme from `Preferences > Profiles > Colors > Color Presets`. Import `Tomorrow Night Eighties` from import button.
+
+### Install Powerlines
+1. Open iterm and type `brew tap homebrew/cask-fonts`
+2. Download font from [nerd-fonts](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/SourceCodePro.zip)
+3. Set up iterm font: `Preferences > Profiles > Text > Change Font` and select `Sauce Code Pro Nerd Font Complete`.
+
+### Install zsh
+1. `brew install zsh`
+2. Set up default shell.
+```
+sudo sh -c "echo $(which zsh) >> /etc/shells" 
+chsh -s $(which zsh)
+```
+3. Install oh-my-zsh.
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+4. Modify `~/.zshrc`.
+```
+open ~/.zshrc
+```
+5. Change font and other settings.
+```
+ZSH_THEME="agnoster"
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir dir_writable vcs vi_mode)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status background_jobs history ram load time)
+DEFAULT_USER="xxx"
+POWERLEVEL9K_MODE='nerdfont-complete'
+```
+6. Execute command.
+```
+exec $SHELL
+```
+
