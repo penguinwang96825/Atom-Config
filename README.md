@@ -1,7 +1,9 @@
-# Atom-Config
+# Computer Setup
+
+## Atom-Config
 Download [Atom](https://github.com/atom/atom/releases/tag/v1.50.0) first from its GitHub website.
 
-## Install Packages
+### Install Packages
 
 1. platformio-ide-terminal (Before installing please pre-install visual studio)
 2. atom-beautify
@@ -10,7 +12,7 @@ Download [Atom](https://github.com/atom/atom/releases/tag/v1.50.0) first from it
 5. color-picker
 6. autocomplete
 
-## Config Settings
+### Config Settings
 
 In `file` > `Config`, please add the followings, 
 ```
@@ -33,7 +35,7 @@ In `file` > `Config`, please add the followings,
     onSave: "untabify"
 ```
 
-## Integrate Cmder
+### Integrate Cmder
 
 1. Install `platformio-ide-terminal`.
 2. Create `atom.bat` in cmder root folder.
@@ -47,10 +49,22 @@ SET CMDER_ROOT=C:\Path\To\cmder
 - Shell Override: `C:\Windows\System32\cmd.exe`
 4. (Optional) If you want to set up conda environment, please go to this [tutorial](https://github.com/penguinwang96825/Set-Up-Conda-Environment). After you build conda environment, set command in `Auto Run Command` to `C:\Path\To\cmder\atom.bat && conda activate env_name && clear`.
 
-## GitHub SSH Public Key
+## GitHub Config
+
+### GitHub SSH Public Key
 Reference from https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key
 
 ```
 ssh-keygen -o
 cat ~/.ssh/id_rsa.pub
 ```
+
+## Office Config
+
+### MathType
+
+1. Install MathType from [here]().
+2. Unlock with product key: `MTWE691-011084-r0xyl`
+3. Copy `MathPage.wll` from `C:\Program Files (x86)\MathType\MathPage\64` folder.
+4. Copy `MathType Commands 6 For Word 2013.dotm` from `C:\Program Files (x86)\MathType\Office Support\64` folder.
+5. Paste these two file to `C:\Program Files\Microsoft Office\root\Office16\STARTUP` folder.
