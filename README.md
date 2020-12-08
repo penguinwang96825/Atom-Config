@@ -116,3 +116,15 @@ POWERLEVEL9K_MODE='nerdfont-complete'
 exec $SHELL
 ```
 
+## Stanford Core NLP
+
+### Install
+1. `pip install stanfordcorenlp`
+2. Download Stanford CoreNLP jar file.
+3. Run a script as root on Mac OS X: `sudo python main.py`
+```python
+nlp = StanfordCoreNLP(r'./stanford-corenlp-4.1.0/')
+sentence = 'My script is written in Python.'
+print('Tokenize:', nlp.word_tokenize(sentence))
+print(nlp.pos_tag(sentence))
+```
