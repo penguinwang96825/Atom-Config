@@ -120,7 +120,7 @@ exec $SHELL
 
 ### Install
 1. `pip install stanfordcorenlp`
-2. Download Stanford CoreNLP jar file.
+2. Download Stanford CoreNLP [jar](http://nlp.stanford.edu/software/stanford-corenlp-4.1.0.zip) file. You can check [release page](https://stanfordnlp.github.io/CoreNLP/history.html) from its official website.
 3. Run a script as root on Mac OS X: `sudo python main.py`
 ```python
 nlp = StanfordCoreNLP(r'./stanford-corenlp-4.1.0/')
