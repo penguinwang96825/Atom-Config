@@ -119,9 +119,11 @@ exec $SHELL
 ## Stanford Core NLP
 
 ### Install
-1. `pip install stanfordcorenlp`
-2. Download Stanford CoreNLP [jar](http://nlp.stanford.edu/software/stanford-corenlp-4.1.0.zip) file. You can check [release page](https://stanfordnlp.github.io/CoreNLP/history.html) from its official website.
-3. Run a script as root on Mac OS X: `sudo python main.py`
+`stanfordcorenlp` is a Python wrapper for Stanford CoreNLP. It provides a simple API for text processing tasks such as Tokenization, Part of Speech Tagging, Named Entity Reconigtion, Constituency Parsing, Dependency Parsing, and more. You can see its documentation throught its [GitHub](https://github.com/Lynten/stanford-corenlp)
+1. Install Java SE Development Kit from [here](https://www.oracle.com/java/technologies/javase/jdk14-archive-downloads.html).
+2. `pip install stanfordcorenlp`
+3. Download Stanford CoreNLP [jar](http://nlp.stanford.edu/software/stanford-corenlp-4.1.0.zip) file. You can check [release page](https://stanfordnlp.github.io/CoreNLP/history.html) from its official website.
+4. Run a script as root on Mac OS X: `sudo python main.py`
 ```python
 nlp = StanfordCoreNLP(r'./stanford-corenlp-4.1.0/')
 sentence = 'My script is written in Python.'
