@@ -63,7 +63,7 @@ cat ~/.ssh/id_rsa.pub
 
 ### MathType
 
-1. Install MathType from [here]().
+1. Install MathType from [here](https://github.com/penguinwang96825/Computer-Setup/blob/main/MathType_v6.9.exe).
 2. Unlock with product key: `MTWE691-011084-r0xyl`
 3. Copy `MathPage.wll` from `C:\Program Files (x86)\MathType\MathPage\64` folder.
 4. Copy `MathType Commands 6 For Word 2013.dotm` from `C:\Program Files (x86)\MathType\Office Support\64` folder.
